@@ -1,0 +1,22 @@
+race.c
+    main
+        Ask the user for a seed that will be used to randomly generate the following numbers
+        Use a scan to take in the value and set it to get random numbers
+        Get current position of tortoise and hare
+        Run race through steps, updating the hare first then the tortoise
+        Keep track of who is winning
+        When an animal passes the other, print the message: At t = time, the hare (square x) has passed the tortoise (square y).
+        When an animal reaches square 70, print the winner of the race
+
+animals.c
+    update_hare 
+        Takes in current position of the hare as a parameter
+        Generate a random number between 0 and 1 to determine the type of movement that is taken
+        Check that the current position >= 0
+        Return the new current position
+
+    update_tortoise
+        Takes in current position of the hare as a parameter
+        Generate a random number between 0 and 1 to determine the type of movement that is taken
+        Check that the current position >= 0
+        Return the new current position
